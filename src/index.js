@@ -1,5 +1,7 @@
-const applyConfig = (config) => {
-  return config;
+import installParser from "./components/manage/Blocks/Parser";
+
+const config = (config) => {
+  return [installParser].reduce((acc, apply) => apply(acc), config);
 };
 
-export default applyConfig;
+export default config;
