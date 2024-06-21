@@ -45,7 +45,7 @@ module.exports = {
   },
   ...(process.env.JEST_USE_SETUP === 'ON' && {
     setupFilesAfterEnv: [
-      '<rootDir>/node_modules/@eeacms/volto-datablocks/jest.setup.js',
+      '<rootDir>/node_modules/@eeacms/volto-migrate-tool/jest.setup.js',
     ],
   }),
 };

@@ -1,22 +1,22 @@
 # Data-connected Volto components
 
-[![Releases](https://img.shields.io/github/v/release/eea/volto-datablocks)](https://github.com/eea/volto-datablocks/releases)
+[![Releases](https://img.shields.io/github/v/release/eea/volto-migrate-tool)](https://github.com/eea/volto-migrate-tool/releases)
 
-[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-datablocks%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-datablocks/job/master/display/redirect)
-[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-master&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-master)
-[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-master&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-master)
-[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-master&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-master)
-[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-master&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-master)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-migrate-tool%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-migrate-tool/job/master/display/redirect)
+[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
+[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
+[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
+[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
 
-[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-datablocks%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-datablocks/job/develop/display/redirect)
-[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-develop&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-develop)
-[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-develop&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-develop)
-[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-develop&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-develop)
-[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-datablocks-develop&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-datablocks-develop)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-migrate-tool%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-migrate-tool/job/develop/display/redirect)
+[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
+[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
+[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
+[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
 
 [Volto](https://github.com/plone/volto) add-on
 
-Volto-datablocks is an addon that has various blocks and utilities to provide "data-connected" components in volto websites.
+volto-migrate-tool is an addon that has various blocks and utilities to provide "data-connected" components in volto websites.
 
 **This add-on requires `eea.docker.plonesaas@5.2.4-66`.**
 
@@ -142,7 +142,7 @@ If we want to set the same parameter but through data_query the request will loo
 }'
 ```
 
-Volto-datablocks offers 4 hooks through which a data-connected component can make requests to a connector:
+volto-migrate-tool offers 4 hooks through which a data-connected component can make requests to a connector:
 
 ```
 connectToProviderData
@@ -280,7 +280,7 @@ Here is an example on how to use `connectToProviderData`:
 ```javascript
 import React from 'react';
 import { compose } from 'redux';
-import { connectToProviderData } from '@eeacms/volto-datablocks/hocs';
+import { connectToProviderData } from '@eeacms/volto-migrate-tool/hocs';
 
 ...
 
@@ -301,16 +301,16 @@ export default compose(
 
 ## Getting started
 
-### Try volto-datablocks with Docker
+### Try volto-migrate-tool with Docker
 
-      git clone https://github.com/eea/volto-datablocks.git
-      cd volto-datablocks
+      git clone https://github.com/eea/volto-migrate-tool.git
+      cd volto-migrate-tool
       make
       make start
 
 Go to http://localhost:3000
 
-### Add volto-datablocks to your Volto project
+### Add volto-migrate-tool to your Volto project
 
 1. Make sure you have a [Plone backend](https://plone.org/download) up-and-running at http://localhost:8080/Plone
 
@@ -320,25 +320,25 @@ Go to http://localhost:3000
 
 1. Start Volto frontend
 
-* If you already have a volto project, just update `package.json`:
+- If you already have a volto project, just update `package.json`:
 
-   ```JSON
-   "addons": [
-       "@eeacms/volto-datablocks"
-   ],
+  ```JSON
+  "addons": [
+      "@eeacms/volto-migrate-tool"
+  ],
 
-   "dependencies": {
-       "@eeacms/volto-datablocks": "*"
-   }
-   ```
+  "dependencies": {
+      "@eeacms/volto-migrate-tool": "*"
+  }
+  ```
 
-* If not, create one:
+- If not, create one:
 
-   ```
-   npm install -g yo @plone/generator-volto
-   yo @plone/volto my-volto-project --canary --addon @eeacms/volto-datablocks
-   cd my-volto-project
-   ```
+  ```
+  npm install -g yo @plone/generator-volto
+  yo @plone/volto my-volto-project --canary --addon @eeacms/volto-migrate-tool
+  cd my-volto-project
+  ```
 
 1. Install new add-ons and restart Volto:
 
@@ -353,18 +353,18 @@ Go to http://localhost:3000
 
 ## Release
 
-See [RELEASE.md](https://github.com/eea/volto-datablocks/blob/master/RELEASE.md).
+See [RELEASE.md](https://github.com/eea/volto-migrate-tool/blob/master/RELEASE.md).
 
 ## How to contribute
 
-See [DEVELOP.md](https://github.com/eea/volto-datablocks/blob/master/DEVELOP.md).
+See [DEVELOP.md](https://github.com/eea/volto-migrate-tool/blob/master/DEVELOP.md).
 
 ## Copyright and license
 
 The Initial Owner of the Original Code is European Environment Agency (EEA).
 All Rights Reserved.
 
-See [LICENSE.md](https://github.com/eea/volto-datablocks/blob/master/LICENSE.md) for details.
+See [LICENSE.md](https://github.com/eea/volto-migrate-tool/blob/master/LICENSE.md) for details.
 
 ## Funding
 

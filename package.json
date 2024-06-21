@@ -1,15 +1,15 @@
 {
-  "name": "@eeacms/volto-datablocks",
-  "version": "7.0.6",
+  "name": "@eeacms/volto-migrate-tool",
+  "version": "0.1.0",
   "description": "(EEA) Provides primitives for data connectivity to volto-plotlycharts and other blocks",
   "main": "src/index.js",
   "author": "European Environment Agency: IDM2 A-Team",
   "license": "MIT",
-  "homepage": "https://github.com/eea/volto-datablocks",
+  "homepage": "https://github.com/eea/volto-migrate-tool",
   "keywords": [
     "volto-addon",
     "volto-block",
-    "volto-datablocks",
+    "volto-migrate-tool",
     "volto",
     "plone",
     "react"
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eea/volto-datablocks.git"
+    "url": "git+https://github.com/eea/volto-migrate-tool.git"
   },
   "bugs": {
-    "url": "https://github.com/eea/volto-datablocks/issues"
+    "url": "https://github.com/eea/volto-migrate-tool/issues"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json}": [

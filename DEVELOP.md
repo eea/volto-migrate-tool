@@ -1,16 +1,16 @@
-# volto-datablocks
+# volto-migrate-tool
 
 ## Develop
 
 1. Make sure you have `docker` and `docker compose` installed and running on your machine:
 
-    ```Bash
-    git clone https://github.com/eea/volto-datablocks.git
-    cd volto-datablocks
-    git checkout -b bugfix-123456 develop
-    make
-    make start
-    ```
+   ```Bash
+   git clone https://github.com/eea/volto-migrate-tool.git
+   cd volto-migrate-tool
+   git checkout -b bugfix-123456 develop
+   make
+   make start
+   ```
 
 1. Wait for `Volto started at 0.0.0.0:3000` meesage
 
@@ -18,13 +18,13 @@
 
 1. Initialize git hooks
 
-    ```Bash
-    yarn prepare
-    ```
+   ```Bash
+   yarn prepare
+   ```
 
 1. Happy hacking!
 
-### Or add @eeacms/volto-datablocks to your Volto project
+### Or add @eeacms/volto-migrate-tool to your Volto project
 
 Before starting make sure your development environment is properly set. See [Volto Developer Documentation](https://docs.voltocms.com/getting-started/install/)
 
@@ -34,15 +34,15 @@ Before starting make sure your development environment is properly set. See [Vol
 
 1.  Create new volto app
 
-        yo @plone/volto my-volto-project --addon @eeacms/volto-datablocks --skip-install
+        yo @plone/volto my-volto-project --addon @eeacms/volto-migrate-tool --skip-install
         cd my-volto-project
 
 1.  Add the following to `mrs.developer.json`:
 
         {
-            "volto-datablocks": {
-                "url": "https://github.com/eea/volto-datablocks.git",
-                "package": "@eeacms/volto-datablocks",
+            "volto-migrate-tool": {
+                "url": "https://github.com/eea/volto-migrate-tool.git",
+                "package": "@eeacms/volto-migrate-tool",
                 "branch": "develop",
                 "path": "src"
             }
@@ -69,38 +69,38 @@ Before starting make sure your development environment is properly set. See [Vol
 
 1.  Happy hacking!
 
-        cd src/addons/volto-datablocks/
+        cd src/addons/volto-migrate-tool/
 
 ## Cypress
 
 To run cypress locally, first make sure you don't have any Volto/Plone running on ports `8080` and `3000`.
 
 You don't have to be in a `clean-volto-project`, you can be in any Volto Frontend
-project where you added `volto-datablocks` to `mrs.developer.json`
+project where you added `volto-migrate-tool` to `mrs.developer.json`
 
 Go to:
 
-  ```BASH
-  cd src/addons/volto-datablocks/
-  ```
+```BASH
+cd src/addons/volto-migrate-tool/
+```
 
 Start:
 
-  ```Bash
-  make
-  make start
-  ```
+```Bash
+make
+make start
+```
 
-This will build and start with Docker a clean `Plone backend` and `Volto Frontend` with `volto-datablocks` block installed.
+This will build and start with Docker a clean `Plone backend` and `Volto Frontend` with `volto-migrate-tool` block installed.
 
 Open Cypress Interface:
 
-  ```Bash
-  make cypress-open
-  ```
+```Bash
+make cypress-open
+```
 
 Or run it:
 
-  ```Bash
-  make cypress-run
-  ```
+```Bash
+make cypress-run
+```
