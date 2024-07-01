@@ -14,7 +14,9 @@
     "plone",
     "react"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "jsoneditor": "10.0.0"
+  },
   "devDependencies": {
     "@cypress/code-coverage": "^3.10.0",
     "@plone/scripts": "*",
