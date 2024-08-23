@@ -9,8 +9,7 @@ function createSlate(value, plaintext) {
   return {
     '@type': 'slate',
     instructions: {
-      data:
-        '<p>Any additional information goes here, like methodology or links to other supporting information</p>',
+      data: '<p>Any additional information goes here, like methodology or links to other supporting information</p>',
     },
     placeholder: 'Type optional extra information',
     plaintext,
