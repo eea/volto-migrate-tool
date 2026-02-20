@@ -3,16 +3,16 @@
 [![Releases](https://img.shields.io/github/v/release/eea/volto-migrate-tool)](https://github.com/eea/volto-migrate-tool/releases)
 
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-migrate-tool%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-migrate-tool/job/master/display/redirect)
-[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
-[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
-[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
-[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-master&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-master)
+[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool)
+[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool)
+[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool)
+[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool)
 
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-migrate-tool%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-migrate-tool/job/develop/display/redirect)
-[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
-[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
-[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
-[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool-develop&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool-develop)
+[![Lines of Code](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&branch=develop&metric=ncloc)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool&branch=develop)
+[![Coverage](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&branch=develop&metric=coverage)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool&branch=develop)
+[![Bugs](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&branch=develop&metric=bugs)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool&branch=develop)
+[![Duplicated Lines (%)](https://sonarqube.eea.europa.eu/api/project_badges/measure?project=volto-migrate-tool&branch=develop&metric=duplicated_lines_density)](https://sonarqube.eea.europa.eu/dashboard?id=volto-migrate-tool&branch=develop)
 
 [Volto](https://github.com/plone/volto) add-on
 
